@@ -1,4 +1,4 @@
-# AI 文档智能管理中心-performance center 管理中心
+# AI 文档智能管理中心-performance center专题
 
 > **版本**: v1.0  
 > **更新日期**: 2026-07-31  
