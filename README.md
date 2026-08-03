@@ -1,8 +1,9 @@
 # AI 文档智能管理中心-performance center专题
 
-> **版本**: v1.0  
-> **更新日期**: 2026-07-31  
+> **版本**: v1.1  
+> **更新日期**: 2026-08-03  
 > **仓库类型**: AI 辅助文档管理与知识沉淀系统
+> **当前文档数**: 7 份 | **最后更新**: 见下方文档列表
 
 ---
 
@@ -24,24 +25,41 @@ Performance Center 是一个基于 **AI 驱动的智能化文档管理系统**�
 
 ---
 
-## 📁 目录结构规划
+## 📁 目录结构与文档清单
 
 ```
 Performance-center-
-├── README.md                 # 本文件 - 项目说明与使用指南
-├── docs/                     # 核心文档区
-│   ├── specifications/       # 技术规格说明书
-│   ├── prototypes/           # 原型设计稿（HTML/交互原型）
-│   ├── api-docs/             # API 接口文档
-│   └── guidelines/           # 开发规范与指导文档
-├── assets/                   # 静态资源
-│   ├── images/               # 图片素材
-│   ├── diagrams/             # 架构图/流程图
-│   └── templates/            # 文档模板
-├── archives/                 # 历史归档（已废弃或过时文档）
-├── .gitignore                # Git 忽略规则
-└── CHANGELOG.md              # 变更日志
+├── README.md                      # 本文件 - 项目说明与使用指南
+├── docs/
+│   ├── research/                  # 调研/竞品分析
+│   │   ├── tableau-pulse-product-researchv3.md    # Tableau Pulse 产品调研 v3 (662行)
+│   │   └── research-pc-tableau-benchmark-v1.0.md  # PC 对标 Tableau MECE分析表 v1.0
+│   ├── guidelines/                # 开发规范与指导（⭐ 新增）
+│   │   ├── git-commit-standard.md                 # Git 提交与文档管理规范 v1.0
+│   │   ├── research-template.md                   # 产品调研文档模板
+│   │   ├── benchmark-template.md                  # MECE对标分析表模板
+│   │   └── priority-example.md                    # 优先级分级表示例
+│   ├── priority/                  # 优先级/决策表
+│   │   ├── pulse-priority-table.md               # Pulse 功能优先级分级表
+│   │   └── pc-task-decision-table.md             # PC 任务决策表（做什么/不做什么）
+│   ├── specifications/          # 技术规格说明书（待补充）
+│   └── prototypes/              # 原型设计稿（待补充）
+└── archives/                     # 历史归档
 ```
+
+### 📄 文档索引
+
+| 文档 | 类型 | 说明 | 优先级参考 |
+|------|------|------|-----------|
+| `tableau-pulse-product-researchv3.md` | 调研 | Tableau Pulse 完整产品调研 | 基础参考 |
+| `research-pc-tableau-benchmark-v1.0.md` | 对标 | PC vs Tableau MECE功能对比 | P0-P2分级 |
+| `pulse-priority-table.md` | 决策 | Pulse 自身能力优先级 | 核心vs辅助 |
+| `pc-task-decision-table.md` | 决策 | PC 建设任务做什么/不做什么 | 行动指南 |
+| `git-commit-standard.md` | 规范 | **提交前必读**：命名、commit message、检查清单 | 强制执行 |
+| `research-template.md` | 模板 | 新调研文档的标准格式 | 复用模板 |
+| `benchmark-template.md` | 模板 | MECE对标表的填写规范 | 复用模板 |
+
+> ⚠️ **推送前必读**：`docs/guidelines/git-commit-standard.md`
 
 ---
 
@@ -157,4 +175,4 @@ Performance-center-
 
 ---
 
-*最后更新：2026-07-31 by AI Assistant*
+*最后更新：2026-08-03 by AI Assistant (v1.1: 新增文档规范与模板)*
