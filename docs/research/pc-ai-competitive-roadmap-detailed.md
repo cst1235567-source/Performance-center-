@@ -1,6 +1,5 @@
 # Performance Center AI竞品功能与短中长期规划
 
-> 说明：表格以客户可感知的产品功能为颗粒度。  
 > **短期**侧重增强现有Dashboard与报告；**中期**侧重主动指标洞察；**长期**侧重绩效预测、决策与行动协同。
 
 | 能力模块 | 具体功能点 | Tableau Pulse | Power BI Copilot | SAP Analytics Cloud / Joule | Performance Center 短期规划 | Performance Center 中期规划 | Performance Center 长期规划 |
